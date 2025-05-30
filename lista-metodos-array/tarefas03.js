@@ -5,7 +5,7 @@ let tarefas = ['Estudar JavaScript', 'Fazer exercícios de matemática', 'Lavar 
 console.log("antes do unshift");
 console.table(tarefas);
 
-//Adicionando uma nova tarefa no inicio da lista
+//Adicionando uma nova tarefa no inicio da lista de array
 tarefas.unshift("Comer chocolate")
 
 console.log("depois do unshift");
