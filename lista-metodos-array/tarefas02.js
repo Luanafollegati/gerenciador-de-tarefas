@@ -4,9 +4,9 @@ console.log("antes do pop");
 console.table(tarefas);
 
 // removendo a ultima tarefa
-let estiloRemovido = tarefas.pop();
+let tarefaRemovida = tarefas.pop();
 
 console.log("depois do pop");
 console.table(tarefas);  
 
-console.log("estilo removido: ", estiloRemovido);
+console.log("tarefa removida: ", tarefaRemovida);
